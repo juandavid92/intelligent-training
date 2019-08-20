@@ -10,3 +10,21 @@ body {
     position: absolute;
     top: 0;
 }
+.card-header{
+    text-align: center;
+    padding: 5%;
+}
+.card-header img{
+    margin: auto;
+    width: 35%;
+} 
+.content-loggin {
+    width: 50%;
+    border-radius: 5px;
+    margin: 10% auto;
+    min-height: auto;
+    height: auto;
+    position: relative;
+    opacity: 0.8;
+    z-index: 2;
+}
