@@ -1,14 +1,14 @@
 <video autoplay="" class="video-slider" loop="" muted="">
                 <source src="{{ asset('/video/office.mp4')}}" type="video/mp4">
 </video>
-@extends('layouts.app')
+@extends('partials.head')
 
 @section('content')
 
 
 <div class="container content-loggin">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-header"><img src="{{asset('/img/logo.png')}}"></div>
 
